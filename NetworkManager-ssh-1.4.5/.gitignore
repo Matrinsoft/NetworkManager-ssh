@@ -1,0 +1,50 @@
+# Object files
+*.o
+*.lo
+
+# Libraries
+*.lib
+*.a
+*.la
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+autom4te.cache/
+gtk4/
+Makefile
+Makefile.in
+
+aclocal.m4
+po/NetworkManager-ssh.pot
+compile
+config.*
+configure
+depcomp
+install-sh
+libtool
+network-manager-ssh.metainfo.xml
+ltmain.sh
+missing
+nm-ssh-service.name
+stamp-h1
+properties/resources.c
+
+.dirstamp
+auth-dialog/nm-ssh-auth-dialog
+nm-ssh-service
+NetworkManager-ssh-*.tar*
+debian/autoreconf.before
+debian/autoreconf.after
+debian/debhelper-build-stamp
+debian/.debhelper
+debian/tmp
+debian/network-manager-ssh

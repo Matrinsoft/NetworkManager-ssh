@@ -1,0 +1,322 @@
+# Georgian translations for NetworkManager-ssh package.
+# Copyright (C) 2022 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the NetworkManager-ssh package.
+# Temuri Doghonadze <temuri dot doghonadze at gmail dot com>. 2022
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-ssh\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-15 17:00+1000\n"
+"PO-Revision-Date: 2022-07-23 23:07+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. Otherwise, we have no saved password, or the password flags indicated
+#. * that the password should never be saved.
+#.
+#: ../auth-dialog/main.c:141
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network '%s'."
+msgstr "პირად ვირტუალურ ქსელში (%s) წვდომის მისაღებად საჭიროა ავთენტიკაცია."
+
+#: ../auth-dialog/main.c:150 ../auth-dialog/main.c:170
+msgid "Authenticate VPN"
+msgstr "VPN-ის ავთენტიკაცია"
+
+#: ../auth-dialog/main.c:152 ../properties/nm-ssh-dialog.ui.h:27
+msgid "Password:"
+msgstr "პაროლი:"
+
+#: ../auth-dialog/main.c:291
+#, c-format
+msgid ""
+"Couldn't find '%s' environment variable.\n"
+"\n"
+"Is ssh-agent running?"
+msgstr ""
+"გარემოს ცვლადის (%s) პოვნა შეუძლებელია.\n"
+"\n"
+"არის ssh-agent-ი გაშვებული?"
+
+#: ../auth-dialog/vpn-password-dialog.c:95
+msgid "_Password:"
+msgstr "_პაროლი:"
+
+#: ../auth-dialog/vpn-password-dialog.c:97
+msgid "_Secondary Password:"
+msgstr "_მეორადი პაროლი:"
+
+#: ../auth-dialog/vpn-password-dialog.c:240
+msgid "Sh_ow passwords"
+msgstr "_პაროლების ჩვენება"
+
+#: ../properties/advanced-dialog.c:137
+msgid ""
+"You have chosen not to use 'root' as the remote username.\n"
+"\n"
+"Please make sure the user you specify is allowed to open tun/tap devices on "
+"the remote host."
+msgstr ""
+
+#: ../properties/nm-ssh.c:49
+msgid "SSH"
+msgstr "SSH"
+
+#: ../properties/nm-ssh.c:50
+msgid "Compatible with the SSH server."
+msgstr "SSH სერვერთან თავსებადია."
+
+#: ../properties/nm-ssh.c:457
+msgid "Saved"
+msgstr "შენახულია"
+
+#: ../properties/nm-ssh.c:464
+msgid "Always Ask"
+msgstr "ყოველთვის კითხვა"
+
+#: ../properties/nm-ssh.c:620
+msgid "SSH Agent"
+msgstr "SSH  აგენტი"
+
+#: ../properties/nm-ssh.c:633
+msgid "Password"
+msgstr "პაროლი"
+
+#: ../properties/nm-ssh.c:646
+msgid "Key Authentication"
+msgstr "გასაღებით ავთენტიკაცია"
+
+#: ../properties/nm-ssh-dialog.ui.h:1
+msgid " "
+msgstr " "
+
+#: ../properties/nm-ssh-dialog.ui.h:2
+msgid "Not required"
+msgstr "აუცილებელი არაა"
+
+#: ../properties/nm-ssh-dialog.ui.h:3
+msgid "SSH Advanced Options"
+msgstr "SSH-ის დამატებითი პარამეტრები"
+
+#: ../properties/nm-ssh-dialog.ui.h:4
+msgid "Use custom gateway port:"
+msgstr "გამავალი რაუტერის პორტის ხელით მითითება:"
+
+#: ../properties/nm-ssh-dialog.ui.h:5
+msgid "Use custom tunnel Maximum Transmission Unit (MTU):"
+msgstr "ტუნელის MTU-ის ხელით მითითება:"
+
+#: ../properties/nm-ssh-dialog.ui.h:6
+msgid "Extra SSH options:"
+msgstr "SSH-ის დამატებითი პარამეტრები:"
+
+#: ../properties/nm-ssh-dialog.ui.h:7
+msgid "Remote device number:"
+msgstr "დაშორებული მოწყობილობის ნომერი:"
+
+#: ../properties/nm-ssh-dialog.ui.h:8
+msgid "Use a TAP device"
+msgstr "TAP მოწყობილობის გამოყენება"
+
+#: ../properties/nm-ssh-dialog.ui.h:9
+msgid "Remote username:"
+msgstr "დაშორებული მომხმარებლის სახელი:"
+
+#: ../properties/nm-ssh-dialog.ui.h:10
+msgid "Do not replace default route"
+msgstr "ნაგულისხმები რაუტის არ შეცვლა"
+
+#: ../properties/nm-ssh-dialog.ui.h:11
+msgid "General"
+msgstr "ზოგადი"
+
+#: ../properties/nm-ssh-dialog.ui.h:12
+msgid "<b>General</b>"
+msgstr "<b>საერთო</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:13
+msgid "Gateway:"
+msgstr "ნაგულისხმები რაუტერი:"
+
+#: ../properties/nm-ssh-dialog.ui.h:14
+msgid "<b>Network Settings</b>"
+msgstr "<b>ქსელის მორგება</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:15
+msgid "Remote IP Address:"
+msgstr "დაშორებული IP მისამართი:"
+
+#: ../properties/nm-ssh-dialog.ui.h:16
+msgid "Local IP Address:"
+msgstr "ლოკალური IP მისამართი:"
+
+#: ../properties/nm-ssh-dialog.ui.h:17
+msgid "Netmask:"
+msgstr "ქსელური ნიღაბი:"
+
+#: ../properties/nm-ssh-dialog.ui.h:18
+msgid "<b>IPv6 Network Settings</b>"
+msgstr "<b>IPv6 ქსელის მორგება</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:19
+msgid "Use IPv6"
+msgstr "IPv6-ის გამოყენება"
+
+#: ../properties/nm-ssh-dialog.ui.h:20
+msgid "Remote IP Address (IPv6):"
+msgstr "დაშორებული IP მისამართი(IPv6):"
+
+#: ../properties/nm-ssh-dialog.ui.h:21
+msgid "Local IP Address (IPv6):"
+msgstr "ლოკალური IP მისამართი (IPv6):"
+
+#: ../properties/nm-ssh-dialog.ui.h:22
+msgid "Prefix (IPv6):"
+msgstr "პრეფიქსი (IPv6):"
+
+#: ../properties/nm-ssh-dialog.ui.h:23
+msgid "Advanced..."
+msgstr "დამატებით..."
+
+#: ../properties/nm-ssh-dialog.ui.h:24
+msgid "<b>Authentication</b>"
+msgstr "<b>ავთენტიკაცია</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:25
+msgid "Type:"
+msgstr "ტიპი:"
+
+#: ../properties/nm-ssh-dialog.ui.h:26
+msgid "Select an authentication mode."
+msgstr "აირჩიეთ ავთენტიკაციის რეჟიმი."
+
+#: ../properties/nm-ssh-dialog.ui.h:28
+msgid "Show Passwords"
+msgstr "პაროლების ჩვენება"
+
+#: ../properties/nm-ssh-dialog.ui.h:29
+msgid "SSH Key File:"
+msgstr "SSH-ის გასაღების ფაილი:"
+
+#: ../src/nm-ssh-service.c:195
+#, c-format
+msgid "invalid address '%s'"
+msgstr "არასწორი მისამართი: %s"
+
+#: ../src/nm-ssh-service.c:207
+#, c-format
+msgid "invalid integer property '%s' or out of range [%d -> %d]"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:217
+#, c-format
+msgid "invalid boolean property '%s' (not yes or no)"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:224
+#, c-format
+msgid "unhandled property '%s' type %s"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:235
+#, c-format
+msgid "property '%s' invalid or not supported"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:252
+msgid "No VPN configuration options."
+msgstr "VPN-ის მორგების გარეშე."
+
+#: ../src/nm-ssh-service.c:1010
+msgid "Could not find the ssh binary."
+msgstr "/usr/bin/ssh გამშვები ფაილი ვერ ვიპოვე."
+
+#: ../src/nm-ssh-service.c:1035
+msgid "Could not find the sshpass binary."
+msgstr "\"sshpass\"-ის გამშვები ფაილი ვერ ვიპოვე."
+
+#: ../src/nm-ssh-service.c:1053
+msgid "No password specified."
+msgstr "პაროლი მითითებული არაა."
+
+#: ../src/nm-ssh-service.c:1090
+msgid "Key authentication selected, but no key file specified."
+msgstr "არჩეულია გასაღებით ავთენტიკაცია, მაგრამ გასაღები მითითებული არაა."
+
+#: ../src/nm-ssh-service.c:1110
+msgid "Missing required SSH_AUTH_SOCK."
+msgstr "აკლია SSH_AUTH_SOCK. ის აუცილებელია."
+
+#: ../src/nm-ssh-service.c:1124 ../src/nm-ssh-service.c:1584
+#, c-format
+msgid "Unknown authentication type: %s."
+msgstr "ავტოკონსოლის უცნობი ტიპი '%s'."
+
+#: ../src/nm-ssh-service.c:1194
+#, c-format
+msgid "Please set remote address."
+msgstr "მიუთითეთ დაშორებული მისამართი."
+
+#: ../src/nm-ssh-service.c:1210
+#, c-format
+msgid "Invalid port number '%s'."
+msgstr "პორტის არასწორი ნომერი: \"%s\"."
+
+#: ../src/nm-ssh-service.c:1229
+#, c-format
+msgid "Invalid TUN MTU size '%s'."
+msgstr "TUN MTU -ის არასწორი ზომა: '%s'."
+
+#: ../src/nm-ssh-service.c:1248
+#, c-format
+msgid "Invalid TUN/TAP device number '%s'."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1267
+msgid "Missing required remote IP address."
+msgstr "აკლია აუცილებელი დაშორებული IP მისამართი."
+
+#: ../src/nm-ssh-service.c:1281
+msgid "Missing required local IP address."
+msgstr "აკლია აუცილებელი ლოკალური IP მისამართი."
+
+#: ../src/nm-ssh-service.c:1297
+msgid "Missing required netmask."
+msgstr "აკლია აუცილებელი ქსელის ნიღაბი."
+
+#: ../src/nm-ssh-service.c:1317
+msgid "Missing required IPv6 remote IP address."
+msgstr "აკლია აუცილებელი IPv6 დაშორებული IP მისამართი."
+
+#: ../src/nm-ssh-service.c:1331
+msgid "Missing required IPv6 local IP address."
+msgstr "აკლია აუცილებელი IPv6 ლოკალური IP მისამართი."
+
+#: ../src/nm-ssh-service.c:1345
+msgid "Missing required IPv6 netmask."
+msgstr "აკლია აუცილებელი IPv6 ქსელის ნიღაბი."
+
+#: ../src/nm-ssh-service.c:1504 ../src/nm-ssh-service.c:1546
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1708
+msgid "Don't quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1709
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1725
+msgid "nm-ssh-service provides integrated SSH capability to NetworkManager."
+msgstr ""

@@ -1,0 +1,328 @@
+# Hebrew translations for PACKAGE package.
+# Copyright (C) 2011 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Dan Fruehauf <malkodan@gmail.com>, 2013.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-ssh\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-15 17:00+1000\n"
+"PO-Revision-Date: 2021-10-19 17:10+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <malkodan@gmail.com>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0\n"
+
+#. Otherwise, we have no saved password, or the password flags indicated
+#. * that the password should never be saved.
+#.
+#: ../auth-dialog/main.c:141
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network '%s'."
+msgstr "עליך לעבור אימות כדי לגשת לרשת הווירטואלית הפרטית ‚%s’."
+
+#: ../auth-dialog/main.c:150 ../auth-dialog/main.c:170
+msgid "Authenticate VPN"
+msgstr "אימות VPN"
+
+#: ../auth-dialog/main.c:152 ../properties/nm-ssh-dialog.ui.h:27
+msgid "Password:"
+msgstr "ססמה:"
+
+#: ../auth-dialog/main.c:291
+#, c-format
+msgid ""
+"Couldn't find '%s' environment variable.\n"
+"\n"
+"Is ssh-agent running?"
+msgstr ""
+"לא ניתן למצוא את המשתנה הסביבתי ‚%s’.\n"
+"\n"
+"האם ssh-agent פעיל?"
+
+#: ../auth-dialog/vpn-password-dialog.c:95
+msgid "_Password:"
+msgstr "_ססמה:"
+
+#: ../auth-dialog/vpn-password-dialog.c:97
+msgid "_Secondary Password:"
+msgstr "ססמה מ_שנית:"
+
+#: ../auth-dialog/vpn-password-dialog.c:240
+msgid "Sh_ow passwords"
+msgstr "ה_צגת ססמאות"
+
+#: ../properties/advanced-dialog.c:137
+msgid ""
+"You have chosen not to use 'root' as the remote username.\n"
+"\n"
+"Please make sure the user you specify is allowed to open tun/tap devices on "
+"the remote host."
+msgstr ""
+"בחרת לא להשתמש במשתמש העל (root) בתור המשתמש המרוחק.\n"
+"\n"
+"נא לוודא שהמשתמש שציינת מורשה לפתוח התקני tun/tap במארח המרוחק."
+
+#: ../properties/nm-ssh.c:49
+msgid "SSH"
+msgstr "SSH"
+
+#: ../properties/nm-ssh.c:50
+msgid "Compatible with the SSH server."
+msgstr "תואם לשרת ה־SSH."
+
+#: ../properties/nm-ssh.c:457
+msgid "Saved"
+msgstr "נשמר"
+
+#: ../properties/nm-ssh.c:464
+msgid "Always Ask"
+msgstr "לשאול תמיד"
+
+#: ../properties/nm-ssh.c:620
+msgid "SSH Agent"
+msgstr "סוכן SSH"
+
+#: ../properties/nm-ssh.c:633
+msgid "Password"
+msgstr "ססמה"
+
+#: ../properties/nm-ssh.c:646
+msgid "Key Authentication"
+msgstr "אימות מפתח"
+
+#: ../properties/nm-ssh-dialog.ui.h:1
+msgid " "
+msgstr " "
+
+#: ../properties/nm-ssh-dialog.ui.h:2
+msgid "Not required"
+msgstr "לא נדרש"
+
+#: ../properties/nm-ssh-dialog.ui.h:3
+msgid "SSH Advanced Options"
+msgstr "אפשרויות SSH מתקדמות"
+
+#: ../properties/nm-ssh-dialog.ui.h:4
+msgid "Use custom gateway port:"
+msgstr "להשתמש בפתחה משלך בשער הגישה:"
+
+#: ../properties/nm-ssh-dialog.ui.h:5
+msgid "Use custom tunnel Maximum Transmission Unit (MTU):"
+msgstr "להשתמש ב־MTU משלך:"
+
+#: ../properties/nm-ssh-dialog.ui.h:6
+msgid "Extra SSH options:"
+msgstr "אפשרויות SSH נוספות:"
+
+#: ../properties/nm-ssh-dialog.ui.h:7
+msgid "Remote device number:"
+msgstr "מספר ההתקן המרוחק:"
+
+#: ../properties/nm-ssh-dialog.ui.h:8
+msgid "Use a TAP device"
+msgstr "להשתמש בהתקן TAP"
+
+#: ../properties/nm-ssh-dialog.ui.h:9
+msgid "Remote username:"
+msgstr "שם משתמש מרוחק:"
+
+#: ../properties/nm-ssh-dialog.ui.h:10
+msgid "Do not replace default route"
+msgstr "לא להחליף את ניתוב בררת המחדל"
+
+#: ../properties/nm-ssh-dialog.ui.h:11
+msgid "General"
+msgstr "כללי"
+
+#: ../properties/nm-ssh-dialog.ui.h:12
+msgid "<b>General</b>"
+msgstr "<b>כללי</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:13
+msgid "Gateway:"
+msgstr "שער גישה:"
+
+#: ../properties/nm-ssh-dialog.ui.h:14
+msgid "<b>Network Settings</b>"
+msgstr "<b>הגדרות רשת</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:15
+msgid "Remote IP Address:"
+msgstr "כתובת IP מרוחקת:"
+
+#: ../properties/nm-ssh-dialog.ui.h:16
+msgid "Local IP Address:"
+msgstr "כתובת IP מקומית:"
+
+#: ../properties/nm-ssh-dialog.ui.h:17
+msgid "Netmask:"
+msgstr "מסכת רשת:"
+
+#: ../properties/nm-ssh-dialog.ui.h:18
+msgid "<b>IPv6 Network Settings</b>"
+msgstr "<b>הגדרות רשת IPv6</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:19
+msgid "Use IPv6"
+msgstr "להשתמש ב־IPv6"
+
+#: ../properties/nm-ssh-dialog.ui.h:20
+msgid "Remote IP Address (IPv6):"
+msgstr "כתובת IP מרוחקת (IPv6):"
+
+#: ../properties/nm-ssh-dialog.ui.h:21
+msgid "Local IP Address (IPv6):"
+msgstr "כתובת IP מקומית (IPv6):"
+
+#: ../properties/nm-ssh-dialog.ui.h:22
+msgid "Prefix (IPv6):"
+msgstr "קידומת (IPv6):"
+
+#: ../properties/nm-ssh-dialog.ui.h:23
+msgid "Advanced..."
+msgstr "מתקדם…"
+
+#: ../properties/nm-ssh-dialog.ui.h:24
+msgid "<b>Authentication</b>"
+msgstr "<b>אימות</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:25
+msgid "Type:"
+msgstr "סוג:"
+
+#: ../properties/nm-ssh-dialog.ui.h:26
+msgid "Select an authentication mode."
+msgstr "נא לבחור שיטת אימות."
+
+#: ../properties/nm-ssh-dialog.ui.h:28
+msgid "Show Passwords"
+msgstr "הצגת ססמאות"
+
+#: ../properties/nm-ssh-dialog.ui.h:29
+msgid "SSH Key File:"
+msgstr "קובץ מפתח SSH:"
+
+#: ../src/nm-ssh-service.c:195
+#, c-format
+msgid "invalid address '%s'"
+msgstr "הכתובת ‚%s’ שגויה"
+
+#: ../src/nm-ssh-service.c:207
+#, c-format
+msgid "invalid integer property '%s' or out of range [%d -> %d]"
+msgstr "מאפיין מספר שלם ‚%s’ שגוי או מחוץ לטווח [%d ‏-> %d]"
+
+#: ../src/nm-ssh-service.c:217
+#, c-format
+msgid "invalid boolean property '%s' (not yes or no)"
+msgstr "מאפיין בוליאני שגוי ‚%s’ (במקום כן או לא)"
+
+#: ../src/nm-ssh-service.c:224
+#, c-format
+msgid "unhandled property '%s' type %s"
+msgstr "מאפיין בלתי מטופל ‚%s’ סוג %s"
+
+#: ../src/nm-ssh-service.c:235
+#, c-format
+msgid "property '%s' invalid or not supported"
+msgstr "המאפיין ‚%s’ שגוי או שאינו נתמך"
+
+#: ../src/nm-ssh-service.c:252
+msgid "No VPN configuration options."
+msgstr "אין אפשרויות להגדרת VPN."
+
+#: ../src/nm-ssh-service.c:1010
+msgid "Could not find the ssh binary."
+msgstr "לא ניתן למצוא את הקובץ הבינרי של ה־ssh."
+
+#: ../src/nm-ssh-service.c:1035
+msgid "Could not find the sshpass binary."
+msgstr "לא ניתן למצוא את הקובץ הבינרי של sshpass."
+
+#: ../src/nm-ssh-service.c:1053
+msgid "No password specified."
+msgstr "לא צוינה ססמה."
+
+#: ../src/nm-ssh-service.c:1090
+msgid "Key authentication selected, but no key file specified."
+msgstr "נבחר אימות עם מפתח, אך לא צוין מפתח."
+
+#: ../src/nm-ssh-service.c:1110
+msgid "Missing required SSH_AUTH_SOCK."
+msgstr "SSH_AUTH_SOCK נחוץ אך חסר."
+
+#: ../src/nm-ssh-service.c:1124 ../src/nm-ssh-service.c:1584
+#, c-format
+msgid "Unknown authentication type: %s."
+msgstr "סוג האימות לא ידוע: %s."
+
+#: ../src/nm-ssh-service.c:1194
+#, c-format
+msgid "Please set remote address."
+msgstr "נא להגדיר כתובת מרוחקת."
+
+#: ../src/nm-ssh-service.c:1210
+#, c-format
+msgid "Invalid port number '%s'."
+msgstr "מספר הפתחה שגוי ‚%s’."
+
+#: ../src/nm-ssh-service.c:1229
+#, c-format
+msgid "Invalid TUN MTU size '%s'."
+msgstr "גודל MTU‏ ‚%s’ ל־TUN שגוי."
+
+#: ../src/nm-ssh-service.c:1248
+#, c-format
+msgid "Invalid TUN/TAP device number '%s'."
+msgstr "מספר התקן TUN/TAP ‏‚%s’ שגוי."
+
+#: ../src/nm-ssh-service.c:1267
+msgid "Missing required remote IP address."
+msgstr "כתובת ה־IP המרוחקת נחוצה אך חסרה."
+
+#: ../src/nm-ssh-service.c:1281
+msgid "Missing required local IP address."
+msgstr "כתובת ה־IP המקומית נחוצה אך חסרה."
+
+#: ../src/nm-ssh-service.c:1297
+msgid "Missing required netmask."
+msgstr "מסכת הרשת נחוצה אך חסרה."
+
+#: ../src/nm-ssh-service.c:1317
+msgid "Missing required IPv6 remote IP address."
+msgstr "כתובת ה־IPv6 המרוחקת נחוצה אך חסרה."
+
+#: ../src/nm-ssh-service.c:1331
+msgid "Missing required IPv6 local IP address."
+msgstr "כתובת ה־IPv6 המקומית נחוצה אך חסרה."
+
+#: ../src/nm-ssh-service.c:1345
+msgid "Missing required IPv6 netmask."
+msgstr "מסכת הרשת ב־IPv6 נחוצה אך חסרה."
+
+#: ../src/nm-ssh-service.c:1504 ../src/nm-ssh-service.c:1546
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "לא ניתן לעבד את הבקשה כיוון שהגדרות חיבור ה־VPN שגויות."
+
+#: ../src/nm-ssh-service.c:1708
+msgid "Don't quit when VPN connection terminates"
+msgstr "לא לצאת כאשר חיבור ה־VPN נקטע"
+
+#: ../src/nm-ssh-service.c:1709
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "הפעלת יומן ניפוי שגיאות מורחב (עלול לחשוף ססמאות)"
+
+#: ../src/nm-ssh-service.c:1725
+msgid "nm-ssh-service provides integrated SSH capability to NetworkManager."
+msgstr "nm-ssh-service מספק יכולות SSH מובנות ל־NetworkManager."

@@ -1,0 +1,25 @@
+# Object files
+*.o
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+Makefile
+Makefile.in
+.deps
+.libs
+libnm-ssh-properties.la
+libnm_ssh_properties_la-advanced-dialog.lo
+libnm_ssh_properties_la-nm-ssh.lo
